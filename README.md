@@ -159,3 +159,15 @@ A navegação entre telas é feita escondendo o frame atual com `pack_forget()` 
 
 ## Resumo
 O programa oferece uma interface gráfica intuitiva para gerenciar livros e usuários de uma biblioteca. As funcionalidades principais são o cadastro e visualização de livros e usuários, e a navegação entre as telas é facilitada por botões de "Voltar". A arquitetura do programa permite fácil expansão para incluir mais funcionalidades no futuro, como a implementação de empréstimos e devoluções de livros.
+
+
+## Fluxo de Execução do Programa
+
+### 1. Inicialização do Programa
+O ponto de entrada do programa é o bloco condicional `if __name__ == "__main__":`. Quando o programa é executado, o seguinte fluxo é iniciado:
+
+```python
+if __name__ == "__main__":
+    root = tk.Tk()  # Cria a janela principal do Tkinter.
+    app = BibliotecaApp(root)  # Cria uma instância da classe BibliotecaApp, passando a janela principal.
+    root.mainloop()  # Inicia o loop principal do Tkinter, mantendo a janela aberta e respondendo a eventos.
