@@ -1,6 +1,6 @@
 # Documentação do Programa de Gerenciamento de Biblioteca
 
-Um aplicativo simples de gerenciamento de biblioteca desenvolvido em Python usando a biblioteca Tkinter para a interface gráfica (GUI).
+Aplicativo de gerenciamento de biblioteca desenvolvido em Python usando a biblioteca Tkinter para a interface gráfica.
 
 ## Sumário
 
