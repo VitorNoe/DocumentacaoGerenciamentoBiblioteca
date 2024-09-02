@@ -1,5 +1,3 @@
-# Documentação do Programa de Gerenciamento de Biblioteca
-
 ## Classes do Programa
 
 ### 1. Classe `ItemBiblioteca`
@@ -84,4 +82,4 @@
 **Função no Programa:** Gerencia a interface gráfica e a interação do usuário com o sistema de biblioteca.
 
 ### 7. Bloco Principal
-O bloco `if __name__ == "__main__":` é o ponto de entrada do programa. Ele cria uma instância de `BibliotecaApp` e inicia o loop principal do Tkinter para exibir a interface gráfica.
+O bloco `if __name__ == "__main__":` cria uma instância de `BibliotecaApp` e inicia o loop principal do Tkinter para exibir a interface gráfica.
