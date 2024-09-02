@@ -64,6 +64,3 @@ Esta funcionalidade exibe todos os usuários cadastrados na biblioteca:
 O método `voltar()` é usado para esconder o frame atual e mostrar o frame principal. Ele é chamado sempre que o usuário clica no botão "Voltar" em qualquer tela de cadastro ou visualização.
 
 A navegação entre telas é feita escondendo o frame atual com `pack_forget()` e mostrando o frame desejado com `pack()`.
-
-## Resumo
-O programa oferece uma interface gráfica intuitiva para gerenciar livros e usuários de uma biblioteca. As funcionalidades principais são o cadastro e visualização de livros e usuários, e a navegação entre as telas é facilitada por botões de "Voltar". A arquitetura do programa permite fácil expansão para incluir mais funcionalidades no futuro, como a implementação de empréstimos e devoluções de livros.
