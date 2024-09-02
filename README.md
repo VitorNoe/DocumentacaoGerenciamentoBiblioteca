@@ -1,6 +1,5 @@
 # Documentação do Programa de Gerenciamento de Biblioteca
--
--
+
 ## Classes do Programa
 
 ### 1. Classe `ItemBiblioteca`
