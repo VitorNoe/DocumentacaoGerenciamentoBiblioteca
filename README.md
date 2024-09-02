@@ -171,3 +171,21 @@ if __name__ == "__main__":
     root = tk.Tk()  # Cria a janela principal do Tkinter.
     app = BibliotecaApp(root)  # Cria uma instância da classe BibliotecaApp, passando a janela principal.
     root.mainloop()  # Inicia o loop principal do Tkinter, mantendo a janela aberta e respondendo a eventos.
+    tk.Tk(): Cria a janela principal da aplicação.
+    BibliotecaApp(root): Instancia a classe BibliotecaApp, que inicializa a interface gráfica da aplicação.
+    root.mainloop(): Inicia o loop de eventos do Tkinter, que mantém a aplicação em execução e aguarda a interação do usuário.
+
+### 2. Criação da Instância BibliotecaApp
+Quando a instância BibliotecaApp é criada, o método __init__() da classe BibliotecaApp é executado:
+
+self.root = root: A janela principal do Tkinter é armazenada no atributo self.root.
+self.biblioteca = Biblioteca(): Uma instância da classe Biblioteca é criada e atribuída a self.biblioteca. Essa instância gerencia a lista de livros e usuários.
+self.main_frame = tk.Frame(root): Cria um frame principal para conter os botões de funcionalidade.
+Botões de Navegação:
+
+Os botões para "Cadastrar Livro", "Cadastrar Usuário", "Visualizar Livros" e "Visualizar Usuários" são criados e adicionados ao main_frame com as funções de comando apropriadas para cada ação:
+Botão "Cadastrar Livro": Chama self.cadastro_livro.
+Botão "Cadastrar Usuário": Chama self.cadastro_usuario.
+Botão "Visualizar Livros": Chama self.visualizar_livros.
+Botão "Visualizar Usuários": Chama self.visualizar_usuarios.
+Exibição do Frame Principal: self.main_frame.pack() exibe o frame principal na janela.
