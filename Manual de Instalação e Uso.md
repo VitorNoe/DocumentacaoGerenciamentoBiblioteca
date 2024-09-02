@@ -1,7 +1,5 @@
 ### Manual de Instalação e Uso
 
-Este manual fornece instruções sobre como instalar e usar o programa de gerenciamento de biblioteca com interface gráfica desenvolvida com Python e Tkinter.
-
 ---
 
 ### 1. **Dependências Necessárias**
