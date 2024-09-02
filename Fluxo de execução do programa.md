@@ -2,7 +2,7 @@
 ## Fluxo de Execução do Programa
 
 ### 1. Inicialização do Programa
-O ponto de entrada do programa é o bloco condicional `if __name__ == "__main__":`. Quando o programa é executado, o seguinte fluxo é iniciado:
+O ponto de entrada do programa é o bloco condicional `if __name__ == "__main__":`. Quando o programa é executado, o proximo comando é iniciado:
 
 ```python
 if __name__ == "__main__":
@@ -89,14 +89,3 @@ O método `voltar(frame)` é um utilitário para retornar ao frame principal:
 
 - **Esconde o Frame Atual**: `frame.pack_forget()` esconde o frame atual.
 - **Exibe o Frame Principal**: `self.main_frame.pack()` exibe o frame principal novamente.
-
-### Resumo do Fluxo de Execução
-- O programa inicia criando a interface gráfica principal e espera pela interação do usuário.
-- Dependendo da ação do usuário (clicar em "Cadastrar Livro", "Cadastrar Usuário", etc.), o programa esconde a tela principal e exibe a tela apropriada.
-- Ao concluir a tarefa (salvar um livro/usuário ou visualizar dados), o usuário pode voltar à tela principal.
-- Este ciclo continua até que o usuário feche a aplicação, encerrando o loop principal do Tkinter (`root.mainloop()`).
-
-Este fluxo de execução bem organizado garante que o programa seja fácil de usar e entender, permitindo que o usuário navegue entre diferentes funcionalidades de forma intuitiva.
-```
-
-Esse documento fornece um guia detalhado sobre como o programa é executado, cobrindo todas as etapas principais e fluxos de operação. Isso é útil para desenvolvedores e usuários que desejam entender o funcionamento interno do programa.
